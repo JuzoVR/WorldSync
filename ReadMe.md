@@ -11,7 +11,7 @@ Requirements:
 
 This Prefab keeps your world drops synced from your avatar with no external programs. 
 
-Install instructions.
+### Install instructions.
 
 1. Place the Prefab/World Constraint on your avatar. 
 
@@ -25,7 +25,7 @@ Install instructions.
 
 ![Place ResetTarget](https://i.imgur.com/aV0Qb3N.png)
 
-4. Open the World Constraint/RotationSource and drag your Armature into the "Rotation Constraint" Sources. Make sure the "Armature" is BOLD.
+4. Open the World Constraint/RotationSource and drag your Armature into the "Rotation Constraint" Sources.
 
 ![Place Armature in RotationConstraint](https://i.imgur.com/5jWgcn8.png)
 
@@ -43,11 +43,13 @@ Install instructions.
 
 Upload.
 
-When you drop the object. It should drop instantly, then after a few seconds it will swap to the remote version which should stay synced for everyone involved. You will likely notice that it rotates a little bit when its synced.
+When you drop the object. It should drop instantly, then after a few seconds it will swap to the remote version which should stay synced for everyone involved. It may disappear for a frame, it shouldn't but it may.
 
 This supports worlds of size +-1000,+-1000,+-1000.
 
-If you would like to copy the animator to your primary animator make sure to make a Copy and use the VRLab Av3 Manager linked below.
+The layers in the animator for this are prefixed with WorldSync. If you want to use a custom WorldDrop animation you can disable the WorldSync_WorldDrop layer. This layer plays a very simple toggle that sets "Toggle" to enabled and disabled based on the WorldDrop Parameter. Do NOT modify any other layers.
+
+If you would like to copy the animator to your primary animator make sure to make a Copy and use the VRLab Av3 Manager linked below. If you do this, make sure that you don't already have the same parameters in your project.
 
 https://github.com/VRLabs/Avatars-3.0-Manager
 
