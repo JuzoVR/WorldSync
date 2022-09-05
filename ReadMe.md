@@ -1,4 +1,4 @@
-### WorldSync
+## WorldSync
 
 Requirements:
 6 Bools
@@ -7,23 +7,39 @@ Requirements:
 12 Contact Receivers
 2 Phys bones
 1 Phys bone collider
+
+
 This Prefab keeps your world drops synced from your avatar with no external programs. 
 
 Install instructions.
 
 1. Place the Prefab/World Constraint on your avatar. 
 
+![Prefab Placed On Avatar](https://i.imgur.com/FvvMXA3.png)
+
 2. Unpack the World Constraint prefab completely.
 
-3. Place the WorldDropTarget on some part of your Armature. I like using my Right Wrist. You can place it anywhere. Make sure it matches up on the position on the avatar. You may need to 0 out the position and rotation.
+![Unpack Prefab](https://i.imgur.com/VnJSYVC.png)
 
-4. Open the World Constraint/RotationSource and drag your Armature into the Parent Constraint Sources.
+3. Place the ResetTarget on some part of your Armature. I like using my Right Wrist. You can place it anywhere. Make sure it matches up on the position on the avatar. You may need to 0 out the position and rotation.
+
+![Place ResetTarget](https://i.imgur.com/aV0Qb3N.png)
+
+4. Open the World Constraint/RotationSource and drag your Armature into the "Rotation Constraint" Sources. Make sure the "Armature" is BOLD.
+
+![Place Armature in RotationConstraint](https://i.imgur.com/5jWgcn8.png)
 
 5. Place the Animator/WorldSync on your FX layer.
 
+![Place FXLayer](https://i.imgur.com/G8WWrsz.png)
+
 6. Place the WorldSync Params and Menu on your avatar.
 
-7. Place your Target object (for example a couch) in the World Constraint/Container/Toggle with it ON and adjusted however you want. Once you are happy with its relative positioning, turn the toggle object back off.
+![WorldSync Params and Menu](https://i.imgur.com/TjeQEx2.png)
+
+7. Place your Target object (for example a couch) in the World Constraint/Container/Toggle with it ON and adjusted however you want. Once you are happy with its relative positioning, turn the toggle object back off. In the image below, I adjusted my object to be further in front of me by moving the Z position. You can also just leave the position at 0,0,0. There is a SAMPLE CUBE you will want to remove in that same spot.
+
+![TargetObject](https://i.imgur.com/6DnB2Pv.png)
 
 Upload.
 
