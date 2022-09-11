@@ -23,7 +23,12 @@ This Prefab keeps your world drops synced from your avatar with no external prog
 
 3. Place the ResetTarget on some part of your Armature. I like using my Right Wrist. You can place it anywhere. Make sure it matches up on the position on the avatar. You may need to 0 out the position and rotation.
 
+
 ![Place ResetTarget](https://i.imgur.com/aV0Qb3N.png)
+
+3a. You can also place the ResetTarget on your avatar but not on your armature. You would do this by just simply moving it out of the World Constraint object and under the armature but not IN the armature. This retains the old drop at your feet functionality that World Drop has. 
+
+![Place ResetTarget OffArmature](https://i.imgur.com/Y2CRKR5.png)
 
 4. Open the World Constraint/RotationSource and drag your Armature into the "Rotation Constraint" Sources.
 
