@@ -23,3 +23,13 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
+  - name: Force Local Drop
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: forceLocal
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

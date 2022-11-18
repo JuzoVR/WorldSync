@@ -1,7 +1,7 @@
 ## WorldSync
 
 Requirements:
-6 Bools
+7 Bools
 1 Float
 3 Contact Senders
 12 Contact Receivers
@@ -61,3 +61,5 @@ https://github.com/VRLabs/Avatars-3.0-Manager
 Compiled by Juzo and Razgriz
 
 Shoutouts to the VRLabs team especially Lin. Thank you for your help on this project.
+
+Version 1.2.11.18

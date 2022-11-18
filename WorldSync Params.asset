@@ -53,3 +53,7 @@ MonoBehaviour:
     valueType: 2
     saved: 0
     defaultValue: 0
+  - name: forceLocal
+    valueType: 2
+    saved: 0
+    defaultValue: 0
