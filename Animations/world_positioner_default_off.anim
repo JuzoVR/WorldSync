@@ -42,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: World Constraint/XYZ_Adjustments/Container_x
+    path:  XYZ_Adjustments/Container_x
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -70,7 +70,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: World Constraint/XYZ_Adjustments/Senders
+    path:  XYZ_Adjustments/Senders
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -98,7 +98,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: World Constraint/XYZ_Adjustments/Container_x/Container_y/Container_z/x_position_inverse/X
+    path:  XYZ_Adjustments/Container_x/Container_y/Container_z/x_position_inverse/X
       Aim Constraint/x_directionality
     classID: 1
     script: {fileID: 0}
@@ -127,7 +127,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: World Constraint/XYZ_Adjustments/Container_x/Container_y/Container_z/y_position_inverse/Y
+    path:  XYZ_Adjustments/Container_x/Container_y/Container_z/y_position_inverse/Y
       aim constraint/y_directionality
     classID: 1
     script: {fileID: 0}
@@ -156,7 +156,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: World Constraint/XYZ_Adjustments/Container_x/Container_y/Container_z/z_position_inverse/Z
+    path:  XYZ_Adjustments/Container_x/Container_y/Container_z/z_position_inverse/Z
       aim constraint/z_directionality
     classID: 1
     script: {fileID: 0}
@@ -250,7 +250,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: World Constraint/XYZ_Adjustments/Container_x
+    path:  XYZ_Adjustments/Container_x
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -278,7 +278,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: World Constraint/XYZ_Adjustments/Senders
+    path:  XYZ_Adjustments/Senders
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -306,7 +306,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: World Constraint/XYZ_Adjustments/Container_x/Container_y/Container_z/x_position_inverse/X
+    path:  XYZ_Adjustments/Container_x/Container_y/Container_z/x_position_inverse/X
       Aim Constraint/x_directionality
     classID: 1
     script: {fileID: 0}
@@ -335,7 +335,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: World Constraint/XYZ_Adjustments/Container_x/Container_y/Container_z/y_position_inverse/Y
+    path:  XYZ_Adjustments/Container_x/Container_y/Container_z/y_position_inverse/Y
       aim constraint/y_directionality
     classID: 1
     script: {fileID: 0}
@@ -364,7 +364,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: World Constraint/XYZ_Adjustments/Container_x/Container_y/Container_z/z_position_inverse/Z
+    path:  XYZ_Adjustments/Container_x/Container_y/Container_z/z_position_inverse/Z
       aim constraint/z_directionality
     classID: 1
     script: {fileID: 0}

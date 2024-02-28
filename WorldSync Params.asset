@@ -17,43 +17,49 @@ MonoBehaviour:
     valueType: 0
     saved: 1
     defaultValue: 0
+    networkSynced: 1
   - name: VRCFaceBlendH
     valueType: 1
     saved: 1
     defaultValue: 0
+    networkSynced: 1
   - name: VRCFaceBlendV
     valueType: 1
     saved: 1
     defaultValue: 0
+    networkSynced: 1
   - name: WorldDrop
     valueType: 2
     saved: 0
     defaultValue: 0
+    networkSynced: 1
   - name: WorldAxis0
     valueType: 2
     saved: 0
     defaultValue: 0
+    networkSynced: 1
   - name: WorldAxis1
     valueType: 2
     saved: 0
     defaultValue: 0
-  - name: WorldPositive
-    valueType: 2
-    saved: 0
-    defaultValue: 0
+    networkSynced: 1
   - name: WorldValue
     valueType: 1
     saved: 0
     defaultValue: 0
+    networkSynced: 1
   - name: IsFine
     valueType: 2
     saved: 0
     defaultValue: 0
+    networkSynced: 1
   - name: remoteReady
     valueType: 2
     saved: 0
     defaultValue: 0
+    networkSynced: 1
   - name: forceLocal
     valueType: 2
     saved: 0
     defaultValue: 0
+    networkSynced: 1

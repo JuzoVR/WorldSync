@@ -30,7 +30,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: World Constraint/XYZ_Adjustments/x_coarse/x_fine/y_coarse/y_fine
+    path:  XYZ_Adjustments/x_coarse/x_fine/y_coarse/y_fine
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves: []
@@ -86,7 +86,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: World Constraint/XYZ_Adjustments/x_coarse/x_fine/y_coarse/y_fine
+    path:  XYZ_Adjustments/x_coarse/x_fine/y_coarse/y_fine
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -105,7 +105,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: World Constraint/XYZ_Adjustments/x_coarse/x_fine/y_coarse/y_fine
+    path:  XYZ_Adjustments/x_coarse/x_fine/y_coarse/y_fine
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -124,7 +124,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: World Constraint/XYZ_Adjustments/x_coarse/x_fine/y_coarse/y_fine
+    path:  XYZ_Adjustments/x_coarse/x_fine/y_coarse/y_fine
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves: []

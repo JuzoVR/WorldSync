@@ -42,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: World Constraint/Container
+    path:  Container
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -70,7 +70,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[1].weight
-    path: World Constraint/Container
+    path:  Container
     classID: 1773428102
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -142,7 +142,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: World Constraint/Container
+    path:  Container
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -170,7 +170,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[1].weight
-    path: World Constraint/Container
+    path:  Container
     classID: 1773428102
     script: {fileID: 0}
   m_EulerEditorCurves: []

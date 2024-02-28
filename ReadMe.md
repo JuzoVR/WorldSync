@@ -11,40 +11,31 @@ Requirements:
 
 This Prefab keeps your world drops synced from your avatar with no external programs. 
 
+# MANDATORY PREREQUISITE
+
+Follow Installation instructions for Modular Avatar
+https://modular-avatar.nadena.dev/docs/intro
+This is mandatory.
+
 ### Install instructions.
 
 1. Place the Prefab/World Constraint on your avatar. 
 
-![Prefab Placed On Avatar](https://i.imgur.com/FvvMXA3.png)
+![Prefab Placed On Avatar](https://i.imgur.com/hM8Fvx7.png)
 
 2. Unpack the World Constraint prefab completely.
 
-![Unpack Prefab](https://i.imgur.com/VnJSYVC.png)
+![Unpack Prefab](https://i.imgur.com/LSxOZGC.png)
 
-3. Place the ResetTarget on some part of your Armature. I like using my Right Wrist. You can place it anywhere. Make sure it matches up on the position on the avatar. You may need to 0 out the position and rotation.
+3. Open the prefab and select the ResetTarget. You can drag this onto your ARMATURE Hips is the minimum depth. If youd like to have your position and rotation separate. (for example position on hands and rotation on hips.) You can open the ResetTarget and select the individual PositionTarget and RotationTarget and place them in their relative positions.
 
+![Place ResetTarget](https://i.imgur.com/sSRrVFW.png)
 
-![Place ResetTarget](https://i.imgur.com/aV0Qb3N.png)
+4. Replace the Cube under World Constraint/Container/Toggle with your own object. Make sure to 0 it out or set whatever offset you would like. 
 
-3a. You can also place the ResetTarget on your avatar but not on your armature. You would do this by just simply moving it out of the World Constraint object and under the armature but not IN the armature. This retains the old drop at your feet functionality that World Drop has. 
+![Replace Cube with your Target Object](https://i.imgur.com/mmHBUm2.png)
 
-![Place ResetTarget OffArmature](https://i.imgur.com/Y2CRKR5.png)
-
-4. Open the World Constraint/RotationSource and drag your Armature into the "Rotation Constraint" Sources.
-
-![Place Armature in RotationConstraint](https://i.imgur.com/5jWgcn8.png)
-
-5. Place the Animator/WorldSync on your FX layer.
-
-![Place FXLayer](https://i.imgur.com/G8WWrsz.png)
-
-6. Place the WorldSync Params and Menu on your avatar.
-
-![WorldSync Params and Menu](https://i.imgur.com/TjeQEx2.png)
-
-7. Place your Target object (for example a couch) in the World Constraint/Container/Toggle with it ON and adjusted however you want. Once you are happy with its relative positioning, turn the toggle object back off. In the image below, I adjusted my object to be further in front of me by moving the Z position. You can also just leave the position at 0,0,0. There is a SAMPLE CUBE you will want to remove in that same spot.
-
-![TargetObject](https://i.imgur.com/6DnB2Pv.png)
+You're done.
 
 Upload.
 
@@ -52,14 +43,13 @@ When you drop the object. It should drop instantly, then after a few seconds it 
 
 This supports worlds of size +-1000,+-1000,+-1000.
 
-The layers in the animator for this are prefixed with WorldSync. If you want to use a custom WorldDrop animation you can disable the WorldSync_WorldDrop layer. This layer plays a very simple toggle that sets "Toggle" to enabled and disabled based on the WorldDrop Parameter. Do NOT modify any other layers.
 
-If you would like to copy the animator to your primary animator make sure to make a Copy and use the VRLab Av3 Manager linked below. If you do this, make sure that you don't already have the same parameters in your project.
+Update:
 
-https://github.com/VRLabs/Avatars-3.0-Manager
+Added forceLocal variable. If you wish to override the sync with a local drop (if it breaks in an sdk2 world for example) you can toggle it on.
 
-Compiled by Juzo and Razgriz
+Compiled by Juzo 
 
-Shoutouts to the VRLabs team especially Lin. Thank you for your help on this project.
+Shoutouts to the Razgriz for their help on theory and the VRLabs team especially Lin. Thank you for your help on this project.
 
-Version 1.2.11.18
+Version 2.3.2023.0
