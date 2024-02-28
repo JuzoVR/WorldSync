@@ -1,7 +1,7 @@
 ## WorldSync
 
 Requirements:
-7 Bools
+6 Bools
 1 Float
 3 Contact Senders
 12 Contact Receivers
@@ -52,4 +52,4 @@ Compiled by Juzo
 
 Shoutouts to the Razgriz for their help on theory and the VRLabs team especially Lin. Thank you for your help on this project.
 
-Version 2.3.2023.0
+Version 2.28.2024.0
