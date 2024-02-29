@@ -43,6 +43,9 @@ When you drop the object. It should drop instantly, then after a few seconds it 
 
 This supports worlds of size +-1000,+-1000,+-1000.
 
+Example Video for set up:
+
+![Basic Set up video](https://github.com/JuzoVR/WorldSync/blob/main/Assets/Initial%20Setup.mp4)
 
 Update:
 
