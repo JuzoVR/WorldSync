@@ -14,8 +14,10 @@ This Prefab keeps your world drops synced from your avatar with no external prog
 # MANDATORY PREREQUISITE
 
 Follow Installation instructions for Modular Avatar
+
 https://modular-avatar.nadena.dev/docs/intro
-This is mandatory.
+
+# This is mandatory.
 
 ### Install instructions.
 
