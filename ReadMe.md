@@ -49,6 +49,26 @@ Example Video for set up:
 
 https://github.com/JuzoVR/WorldSync/assets/99932870/eaabddcd-a7c8-4420-bae6-7709f2d1f212
 
+Example video for placing on Avatar Pill (so it drops at the floor at the same height every time)
+
+
+https://github.com/JuzoVR/WorldSync/assets/99932870/4e015c95-ff76-48a7-a6d2-da5537244ec8
+
+
+
+Example video for placing on hand
+
+
+https://github.com/JuzoVR/WorldSync/assets/99932870/55f705f7-3bde-4b88-a4eb-d6caeff09a2b
+
+
+Example video for putting rotation on hip while keeping position on hand
+
+
+
+https://github.com/JuzoVR/WorldSync/assets/99932870/24a3b78e-4bcf-405d-8445-8c5b6792e1fc
+
+
 
 Update:
 
@@ -58,4 +78,4 @@ Compiled by Juzo
 
 Shoutouts to the Razgriz for their help on theory and the VRLabs team especially Lin. Thank you for your help on this project.
 
-Version 2.28.2024.0
+Version 3.04.2024.0
