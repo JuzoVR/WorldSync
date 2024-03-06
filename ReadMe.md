@@ -1,12 +1,21 @@
-## WorldSync
+# WorldSync
+
+
+## [Click here for Latest Release](https://github.com/JuzoVR/WorldSync/releases)
 
 Requirements:
-6 Bools
-1 Float
-3 Contact Senders
-12 Contact Receivers
-2 Phys bones
-1 Phys bone collider
+
+  6 Bools
+  
+  1 Float
+  
+  3 Contact Senders
+  
+  12 Contact Receivers
+  
+  2 Phys bones
+  
+  1 Phys bone collider
 
 
 This Prefab keeps your world drops synced from your avatar with no external programs. 
