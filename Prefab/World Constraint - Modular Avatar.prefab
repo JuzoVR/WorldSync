@@ -323,7 +323,7 @@ GameObject:
   - component: {fileID: 7740583399700212169}
   - component: {fileID: 5491014367852575744}
   m_Layer: 0
-  m_Name: World Constraint
+  m_Name: World Constraint - Modular Avatar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

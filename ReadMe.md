@@ -22,15 +22,13 @@ This Prefab keeps your world drops synced from your avatar with no external prog
 
 # MANDATORY PREREQUISITE
 
-Follow Installation instructions for Modular Avatar
+* (Required) Install [Modular Avatar](https://modular-avatar.nadena.dev/docs/intro) **or** [VRCFury](https://vrcfury.com/download).
 
-https://modular-avatar.nadena.dev/docs/intro
-
-# This is mandatory.
+# Modular Avatar or VRCFury is mandatory.
 
 ### Install instructions.
 
-1. Place the Prefab/World Constraint on your avatar. 
+1. Place the given Prefab/World Constraint compatible with either Modular Avatar or VRCFury on your avatar.
 
 ![Prefab Placed On Avatar](https://i.imgur.com/hM8Fvx7.png)
 
