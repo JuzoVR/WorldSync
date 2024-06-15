@@ -36,7 +36,7 @@ This Prefab keeps your world drops synced from your avatar with no external prog
 
 ![Unpack Prefab](https://i.imgur.com/LSxOZGC.png)
 
-3. Open the prefab and select the ResetTarget. You can drag this onto your ARMATURE Hips is the minimum depth. If youd like to have your position and rotation separate. (for example position on hands and rotation on hips.) You can open the ResetTarget and select the individual PositionTarget and RotationTarget and place them in their relative positions.
+3. Open the prefab and select the ResetTarget. You can drag this onto your ARMATURE Hips is the minimum depth. If youd like to have your position and rotation separate. (for example position on hands and rotation on hips.) You can open the ResetTarget and select the individual PositionTarget and RotationTarget and place them in their relative positions. With VRCFury there is an optional prefab "Hips Linked" that you can use. If so you can opt to skip this step if you are okay with it dropping at your feet relative to your hips be default. (This uses the Armature link)
 
 ![Place ResetTarget](https://i.imgur.com/sSRrVFW.png)
 
@@ -85,4 +85,4 @@ Compiled by Juzo
 
 Shoutouts to the Razgriz for their help on theory and the VRLabs team especially Lin. Thank you for your help on this project.
 
-Version 3.04.2024.0
+Version 6.15.2024

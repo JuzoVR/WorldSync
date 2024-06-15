@@ -63,3 +63,8 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
+  - name: BumpCheck
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
