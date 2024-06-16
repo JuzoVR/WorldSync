@@ -597,7 +597,6 @@ GameObject:
   - component: {fileID: 4734791411673593634}
   - component: {fileID: 8452452423433948965}
   - component: {fileID: 6352364798826723552}
-  - component: {fileID: 5311993967972881130}
   - component: {fileID: 4587651973932819972}
   m_Layer: 0
   m_Name: World Constraint - VRCFury
@@ -674,24 +673,6 @@ ScaleConstraint:
   - sourceTransform: {fileID: 1720321125886419532, guid: 788109c97499d8943944965f53510b65,
       type: 3}
     weight: 1
---- !u!1818360608 &5311993967972881130
-PositionConstraint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 977633525640060219}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Weight: 1
-  m_TranslationAtRest: {x: 0, y: 0, z: 0}
-  m_TranslationOffset: {x: 0, y: 0, z: 0}
-  m_AffectTranslationX: 1
-  m_AffectTranslationY: 1
-  m_AffectTranslationZ: 1
-  m_Active: 0
-  m_IsLocked: 0
-  m_Sources: []
 --- !u!114 &4587651973932819972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -706,7 +687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.812.0
+  vrcfuryVersion: 1.949.0
   somethingIsBroken: 0
   config:
     features: []
