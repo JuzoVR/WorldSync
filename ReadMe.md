@@ -3,6 +3,8 @@
 
 ## [Click here for Latest Release](https://github.com/JuzoVR/WorldSync/releases)
 
+This version should still work. But I'm no longer supporting this project. You can find VRLab's version of late sync [Here](https://github.com/VRLabs/Custom-Object-Sync). If I get more time in the future I'll reopen and redo this project for VRCConstraints. However, in its current state the auto conversion should still work.
+
 Requirements:
 
   6 Bools
